@@ -18,14 +18,10 @@ app.use(express.urlencoded({ extended: true }));
 app.use('/api/users', userRoutes);
 app.use('/api/notes', notesRoutes);
 
-
 const port = process.env.PORT || 3000;
 
-
 app.listen(port, () => {
-    console.log(`listen on Port http://localhost:${port}`);
+    console.log(`Servidor corriendo en el puerto ${port}`);
 });
-
-
 
 
