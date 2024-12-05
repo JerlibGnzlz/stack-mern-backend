@@ -19,7 +19,7 @@ app.use('/api/users', userRoutes);
 app.use('/api/notes', notesRoutes);
 
 
-const port = process.env.PORT || 3003;
+const port = process.env.PORT || 3000;
 
 
 app.listen(port, () => {
